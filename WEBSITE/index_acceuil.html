@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station Spatiale Internationale</title>
+    <link rel="stylesheet" href="styles_acceuil.css">
+   
+</head><script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+    
+
+        <!-- Grande planète décorative -->
+        <div class="decorative-planet"></div>
+
+        <h1>Station Spatiale Internationale</h1>
+            
+        <div class="container">
+            <!-- Vidéo d'arrière-plan -->
+            <video autoplay muted loop id="backgroundVideo" class="background-video">
+                <source src="infinite-space-moewalls-com.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas les vidéos HTML5.
+            </video>
+            <div class="grid-container">
+                <a href="iss_tracker.html" class="section-card">
+                    <i data-lucide="rocket" class="icon"></i> <!-- Icône pour le suivi de l'ISS -->
+                    <h2>ISS Tracker</h2>
+                    <p>Suivez la station spatiale en temps réel sur une carte interactive</p>
+                </a>
+            
+                <a href="histoire.html" class="section-card">
+                    <i data-lucide="history" class="icon"></i>
+                    <h2>Histoire</h2>
+                    <p>Découvrez l'histoire fascinante de la station spatiale internationale</p>
+                </a>
+            
+                <a href="france_iss.html" class="section-card">
+                    <i data-lucide="flag" class="icon"></i>
+                    <h2>France et l'ISS</h2>
+                    <p>Explorez les liens entre la France et la station spatiale</p>
+                </a>
+            </div>
+    </div>
+    <script src="script_acceuil.js"></script>
+</body>
+</html>
